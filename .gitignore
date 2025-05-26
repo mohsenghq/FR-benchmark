@@ -1,0 +1,5 @@
+**/__pycache__/**
+dataset/lfw-deepfunneled2
+/dataset/face_dataset
+/results
+/.venv
