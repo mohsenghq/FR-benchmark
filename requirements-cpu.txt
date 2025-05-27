@@ -1,8 +1,8 @@
-tensorflow
-numpy
+tensorflow==2.10
+numpy==1.26.1
 deepface
 matplotlib
 seaborn
-faiss-gpu
+faiss-cpu
 scikit-learn
 tabulate
