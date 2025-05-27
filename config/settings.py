@@ -26,7 +26,7 @@ DISTANCE_METRICS_TO_TEST = ["cosine", "euclidean", "euclidean_l2",
 ]
 
 # Dataset Paths
-DATASET_ROOT_DIR = "dataset/face_dataset"  # Root for raw images. UPDATE THIS PATH
+DATASET_ROOT_DIR = "dataset/lfw-deepfunneled"  # Root for raw images. UPDATE THIS PATH
 CROPPED_FACES_DIR = os.path.join(DATASET_ROOT_DIR, "cropped_faces") # Directory to store pre-cropped faces
 FAISS_INDEXES_DIR = os.path.join(DATASET_ROOT_DIR, "faiss_indexes") # Directory to store faiss indexes
 
