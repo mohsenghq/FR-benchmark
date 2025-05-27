@@ -3,17 +3,17 @@ import datetime
 import uuid
 
 MODELS_TO_TEST = [
-    # "VGG-Face", 
-    # "Facenet", 
+    "VGG-Face", 
+    "Facenet", 
     "Facenet512", 
-    # "OpenFace", 
+    "OpenFace", 
     "DeepID",
-    # "ArcFace", 
-    # "Dlib", 
-    # "SFace", 
-    # "GhostFaceNet", 
+    "ArcFace", 
+    "Dlib", 
+    "SFace", 
+    "GhostFaceNet", 
     # "Buffalo_L", 
-    # "DeepFace"
+    "DeepFace"
 ]
 
 # Face Detector (Manual Selection for the initial cropping phase)
