@@ -79,7 +79,7 @@ class MetricsCalculator:
     def calculate_pairwise_distances(self,
                                      distance_metric: str,
                                      max_positive_pairs_per_id: int = 50,
-                                     max_negative_pairs_total: int = 10000
+                                     max_negative_pairs_total: int = 20000
                                      ) -> Tuple[List[float], List[float]]:
         """
         Calculates distances for positive (same identity) and negative (different identity) pairs.
