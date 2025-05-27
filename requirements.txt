@@ -3,6 +3,6 @@ numpy
 deepface
 matplotlib
 seaborn
-faiss-gpu
+faiss-cpu
 scikit-learn
 tabulate
