@@ -1,0 +1,8 @@
+tensorflow
+numpy
+deepface
+matplotlib
+seaborn
+faiss-cpu
+scikit-learn
+tabulate

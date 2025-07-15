@@ -1,0 +1,96 @@
+2025-07-15 20:01:46,831 - visualizing.results_visualizer - INFO - Logging configured. Level: INFO. File: results\run_20250715_200128_12a4ba00\evaluation_run.log
+2025-07-15 20:01:46,832 - __main__ - INFO - Starting Face Recognition Model Evaluation Pipeline...
+2025-07-15 20:01:46,833 - __main__ - INFO - Attempting to pre-load/build specified models...
+2025-07-15 20:01:46,833 - __main__ - INFO - Pre-building model: VGG-Face
+2025-07-15 20:01:50,779 - __main__ - INFO - Successfully pre-built model: VGG-Face
+2025-07-15 20:01:50,795 - __main__ - INFO - Pre-building model: Facenet
+2025-07-15 20:01:55,096 - __main__ - INFO - Successfully pre-built model: Facenet
+2025-07-15 20:01:55,096 - __main__ - INFO - Pre-building model: Facenet512
+2025-07-15 20:01:59,481 - __main__ - INFO - Successfully pre-built model: Facenet512
+2025-07-15 20:01:59,481 - __main__ - INFO - Pre-building model: OpenFace
+2025-07-15 20:02:01,195 - __main__ - INFO - Successfully pre-built model: OpenFace
+2025-07-15 20:02:01,195 - __main__ - INFO - Pre-building model: DeepID
+2025-07-15 20:02:01,384 - __main__ - INFO - Successfully pre-built model: DeepID
+2025-07-15 20:02:01,384 - __main__ - INFO - Pre-building model: ArcFace
+2025-07-15 20:02:03,989 - __main__ - INFO - Successfully pre-built model: ArcFace
+2025-07-15 20:02:03,989 - __main__ - INFO - Pre-building model: Dlib
+2025-07-15 20:02:04,005 - __main__ - ERROR - Failed to pre-build model Dlib: Dlib is an optional dependency, ensure the library is installed.Please install using 'pip install dlib' . This model will be skipped.
+2025-07-15 20:02:04,005 - __main__ - INFO - Pre-building model: SFace
+2025-07-15 20:02:04,228 - __main__ - INFO - Successfully pre-built model: SFace
+2025-07-15 20:02:04,228 - __main__ - INFO - Pre-building model: GhostFaceNet
+2025-07-15 20:02:09,598 - __main__ - INFO - Successfully pre-built model: GhostFaceNet
+2025-07-15 20:02:09,598 - __main__ - INFO - Loading raw dataset paths from: dataset/lfw-deepfunneled
+2025-07-15 20:02:09,598 - dataset.loader - INFO - Scanning dataset directory: dataset/lfw-deepfunneled
+2025-07-15 20:02:09,598 - dataset.loader - WARNING - No supported images found for identity: 0-faiss_indexes
+2025-07-15 20:02:09,626 - dataset.loader - WARNING - No supported images found for identity: 1-cropped_faces
+2025-07-15 20:02:09,627 - dataset.loader - WARNING - No identities or images found in the dataset.
+2025-07-15 20:02:09,627 - __main__ - WARNING - No identities found in the raw dataset. Attempting to use cropped faces folder directly.
+2025-07-15 20:02:09,628 - dataset.loader - INFO - Scanning dataset directory: dataset/lfw-deepfunneled\1-cropped_faces
+2025-07-15 20:02:09,682 - dataset.loader - WARNING - No supported images found for identity: Alek_Wek
+2025-07-15 20:02:10,567 - dataset.loader - WARNING - No supported images found for identity: Marcos_Cafu
+2025-07-15 20:02:10,583 - dataset.loader - WARNING - No supported images found for identity: Marina_Canetti
+2025-07-15 20:02:10,633 - dataset.loader - WARNING - No supported images found for identity: Matt_Anderson
+2025-07-15 20:02:10,633 - dataset.loader - WARNING - No supported images found for identity: Matt_Roney
+2025-07-15 20:02:10,633 - dataset.loader - WARNING - No supported images found for identity: Meg_Mallon
+2025-07-15 20:02:10,650 - dataset.loader - WARNING - No supported images found for identity: Mekhi_Phifer
+2025-07-15 20:02:10,650 - dataset.loader - WARNING - No supported images found for identity: Meles_Zenawi
+2025-07-15 20:02:10,650 - dataset.loader - WARNING - No supported images found for identity: Melvin_Talbert
+2025-07-15 20:02:10,666 - dataset.loader - WARNING - No supported images found for identity: Michael_Frayn
+2025-07-15 20:02:10,683 - dataset.loader - WARNING - No supported images found for identity: Miguel_Juarez_Perez
+2025-07-15 20:02:10,700 - dataset.loader - WARNING - No supported images found for identity: Milan_Kucan
+2025-07-15 20:02:10,700 - dataset.loader - WARNING - No supported images found for identity: Milt_Palacio
+2025-07-15 20:02:10,717 - dataset.loader - WARNING - No supported images found for identity: Moby
+2025-07-15 20:02:10,717 - dataset.loader - WARNING - No supported images found for identity: Mohammad_Fares
+2025-07-15 20:02:10,717 - dataset.loader - WARNING - No supported images found for identity: Mohammed_Abulhasan
+2025-07-15 20:02:10,748 - dataset.loader - WARNING - No supported images found for identity: Narendra_Modi
+2025-07-15 20:02:10,751 - dataset.loader - WARNING - No supported images found for identity: Nick_Price
+2025-07-15 20:02:10,773 - dataset.loader - WARNING - No supported images found for identity: Nikki_Teasley
+2025-07-15 20:02:10,784 - dataset.loader - WARNING - No supported images found for identity: Pablo_Latras
+2025-07-15 20:02:10,834 - dataset.loader - WARNING - No supported images found for identity: Pedro_Mahecha
+2025-07-15 20:02:10,834 - dataset.loader - WARNING - No supported images found for identity: Peter_Albertsen
+2025-07-15 20:02:10,847 - dataset.loader - WARNING - No supported images found for identity: Peter_Gabriel
+2025-07-15 20:02:10,850 - dataset.loader - WARNING - No supported images found for identity: Peter_Hollingworth
+2025-07-15 20:02:10,851 - dataset.loader - WARNING - No supported images found for identity: Philip_Cummings
+2025-07-15 20:02:10,876 - dataset.loader - WARNING - No supported images found for identity: Qazi_Hussain_Ahmed
+2025-07-15 20:02:10,908 - dataset.loader - WARNING - No supported images found for identity: Reggie_Sanders
+2025-07-15 20:02:10,917 - dataset.loader - WARNING - No supported images found for identity: Ricardo_Mayorga
+2025-07-15 20:02:10,984 - dataset.loader - WARNING - No supported images found for identity: Ruben_Sierra
+2025-07-15 20:02:10,984 - dataset.loader - WARNING - No supported images found for identity: Ruben_Studdard
+2025-07-15 20:02:11,006 - dataset.loader - WARNING - No supported images found for identity: Scott_Hubbard
+2025-07-15 20:02:11,017 - dataset.loader - WARNING - No supported images found for identity: Sean_Combs
+2025-07-15 20:02:11,019 - dataset.loader - WARNING - No supported images found for identity: Sean_Townsend
+2025-07-15 20:02:11,027 - dataset.loader - WARNING - No supported images found for identity: Shae-Lynn_Bourne
+2025-07-15 20:02:11,052 - dataset.loader - WARNING - No supported images found for identity: Soenarno
+2025-07-15 20:02:11,058 - dataset.loader - WARNING - No supported images found for identity: Stacey_Yamaguchi
+2025-07-15 20:02:11,069 - dataset.loader - WARNING - No supported images found for identity: Stephan_Eberharter
+2025-07-15 20:02:11,071 - dataset.loader - WARNING - No supported images found for identity: Stephen_Arigbabu
+2025-07-15 20:02:11,084 - dataset.loader - WARNING - No supported images found for identity: Steve_Avery
+2025-07-15 20:02:11,099 - dataset.loader - WARNING - No supported images found for identity: Surya_Bahadur_Thapa
+2025-07-15 20:02:11,108 - dataset.loader - WARNING - No supported images found for identity: Sylvia_Plachy
+2025-07-15 20:02:11,111 - dataset.loader - WARNING - No supported images found for identity: Taia_Balk
+2025-07-15 20:02:11,117 - dataset.loader - WARNING - No supported images found for identity: Tamara_Stokes
+2025-07-15 20:02:11,123 - dataset.loader - WARNING - No supported images found for identity: Tatiana_Gratcheva
+2025-07-15 20:02:11,124 - dataset.loader - WARNING - No supported images found for identity: Tatiana_Paus
+2025-07-15 20:02:11,128 - dataset.loader - WARNING - No supported images found for identity: Ted_Williams
+2025-07-15 20:02:11,135 - dataset.loader - WARNING - No supported images found for identity: Terrence_Trammell
+2025-07-15 20:02:11,145 - dataset.loader - WARNING - No supported images found for identity: Thomas_Gottschalk
+2025-07-15 20:02:11,149 - dataset.loader - WARNING - No supported images found for identity: Thomas_Kelly
+2025-07-15 20:02:11,155 - dataset.loader - WARNING - No supported images found for identity: Tiago_Splitter
+2025-07-15 20:02:11,166 - dataset.loader - WARNING - No supported images found for identity: Tim_Norbeck
+2025-07-15 20:02:11,187 - dataset.loader - WARNING - No supported images found for identity: Tonga
+2025-07-15 20:02:11,204 - dataset.loader - WARNING - No supported images found for identity: Trevor_Watson
+2025-07-15 20:02:11,239 - dataset.loader - WARNING - No supported images found for identity: Warren_Truss
+2025-07-15 20:02:11,242 - dataset.loader - WARNING - No supported images found for identity: Wendell_Bryant
+2025-07-15 20:02:11,244 - dataset.loader - WARNING - No supported images found for identity: Wilbert_Elki_Meza_Majino
+2025-07-15 20:02:11,256 - dataset.loader - WARNING - No supported images found for identity: Wilson_Alvarez
+2025-07-15 20:02:11,268 - dataset.loader - WARNING - No supported images found for identity: Yana_Klochkova
+2025-07-15 20:02:11,272 - dataset.loader - WARNING - No supported images found for identity: Yasein_Taher
+2025-07-15 20:02:11,276 - dataset.loader - WARNING - No supported images found for identity: Yoelbi_Quesada
+2025-07-15 20:02:11,288 - dataset.loader - WARNING - No supported images found for identity: Zafarullah_Khan_Jamali
+2025-07-15 20:02:11,297 - dataset.loader - INFO - Successfully loaded 5688 identities.
+2025-07-15 20:02:11,298 - __main__ - INFO - Loaded 14764 cropped faces for embedding.
+2025-07-15 20:02:11,299 - __main__ - INFO - Initializing DeepFace Handler for direct library usage on pre-cropped faces.
+2025-07-15 20:02:11,300 - deepface_integration.deepface_handler - INFO - DeepFaceHandler initialized for direct library calls on pre-cropped faces.
+2025-07-15 20:02:11,300 - __main__ - INFO - ===== Processing Model: VGG-Face using pre-cropped faces =====
+2025-07-15 20:02:11,313 - processing.embedding_processor - WARNING - FAISS index or metadata missing for VGG-Face, forcing regeneration.
+2025-07-15 20:02:11,314 - processing.embedding_processor - INFO - Generating embeddings for model: VGG-Face using pre-cropped faces.
